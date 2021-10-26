@@ -28,7 +28,7 @@ regex = "([^ ]+).+ \[(.+)\] \"([A-Z]{3,}) ([^ ]+) ([^ ]+)\" (\d{3}) ([^ ]+) \"(.
 
 #Groupe 0 : Ce que l'on ne capture pas en tant qu'élément 
 
-inputFile = "C:/Users/trist/Desktop/apache_logs"
+inputFile = "/home/users/etudiant/g/gt910277/Bureau/apache_logs"
 
 #Fonction qui traite les lignes et les retourne dans une liste et nous indique s'il y a eu une ou des erreurs 
 def parseLine(line):					
